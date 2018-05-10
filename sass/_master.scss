@@ -1,0 +1,36 @@
+/**********************************************************************************
+	File name:      layout.scss
+	Author:			Definity First
+	Description:    CSS overrides for WordPress layout.
+**********************************************************************************/
+.navbar.nav{
+	background: $clr-primary;
+	border-bottom: 1px solid $clr-white;
+	.menu{
+		ul{
+			list-style: none;
+			margin: 0;
+			li{
+				display: inline-block;
+				margin-right: 20px;
+				a{
+					color: $clr-white;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+.footer{
+	background: $clr-primary;
+	text-align: center;
+	margin-top: 20px;
+	padding: 20px;
+	.copyright{		
+		color: $clr-white;		
+		margin: 0;
+		a{
+			color: $clr-white;
+		}
+	}	
+}

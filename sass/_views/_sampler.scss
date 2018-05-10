@@ -1,0 +1,169 @@
+/**********************************************************************************
+	File name:      sampler.scss
+	Author:			Definity First
+	Description:    CSS overrides for WordPress sampler styles.
+**********************************************************************************/
+.sampler{
+	label{
+		margin-right: 10px;
+	}
+	.sampler-title{
+		margin: 35px 0 35px 0;
+	}
+	xmp{
+		font-family: 'Open-sans-semibold';	
+		font-size: 14px;		
+	}
+	pre{
+		background: $clr-gray;
+	}
+	section{
+		padding-top: 60px;
+	}
+	.color-pallete{
+		.color-rec{
+			height: 90px;		
+			margin: 0 10px 10px;
+		}		
+		.rec-white{background: $clr-gray; border: 1px solid $clr-gray;}
+		.rec-success{background: $clr-success;}		
+		.rec-primary{background: $clr-primary;}
+		.rec-gray{background: $clr-gray;}		
+		.rec-error{background: $clr-error;}		
+
+		.text-color{
+			color: $clr-white;
+			font-size: 14px;
+			position: relative;
+			top: 65%;
+			text-align: right;			
+		}
+		.text-clr-gray{
+			color: $clr-gray;
+		}		
+	}
+
+	.headings-wrap{
+		div:first-child{
+			border-top:1px solid $clr-gray;
+		}
+		div{
+			padding:15px;
+			border-bottom:1px solid $clr-gray;
+			border-left:1px solid $clr-gray;
+			border-right:1px solid $clr-gray;
+		}
+	}
+
+	.paragraphs{
+		.paragraph-title{
+			color: $clr-gray;
+			text-align: center;
+		}
+	}
+	.html-collapse{
+		width: 100%;
+		background: $clr-primary;
+		border-radius: 0;
+		color:$clr-white;
+		span{
+			text-align: left;
+		}
+	}
+	.collapse.txt-container{
+		background: $clr-black;
+		color: $clr-white;
+		position: relative;
+		top: -15px;
+	}
+	.icons{
+		.icons-wrap{
+			border:1px solid $clr-gray;
+		}
+		.icon-wrapper{			
+			div:first-child{
+				width: 25px;
+			}
+			div{
+				i{
+					font-size: 16px;
+					font-weight: bold;
+				}
+				padding: 0 15px 0 15px;
+				display: inline-block;
+				vertical-align: middle;
+			}
+		}
+	}
+	.nav-sampler{
+		.navbar{
+			position: fixed;
+			top: 150px;
+			right: 150px;
+			border-left: 3px solid $clr-success;
+			.navbar-nav{
+				flex-direction: column;
+				-webkit-flex-direction: column;
+				-moz-flex-direction: column;
+				-o-flex-direction: column;
+				-ms-flex-direction: column;
+			}
+			.nav-item{
+				a{
+					font-family: 'Open-sans-semibold';	
+					color: $clr-primary;
+				}
+			}
+			.sub-menu{
+				a{
+					font-size: 14px;
+					color: $clr-gray;
+				}
+			}
+		}
+	}
+
+	.sampler-slider{
+		margin-bottom: 30px;
+		.slick-dots{
+			width: 88.5%;
+			margin: 10px 0;
+		}
+	}
+	.sampler-slider.slider-alternate{
+		.slick-dots{
+			background: $clr-success;
+			padding-top: 5px;
+		}
+	}
+	.buttons-wrap{
+		margin-bottom: 20px;
+	}
+
+	.steps-wrapper{
+		background: url(https://www.hdwallpaperhub.com/wp-content/uploads/Material/4/HD%20Material%20Design%20Wallpaper%200155-950x534.jpg); 
+		height: 300px;	
+		li.nav-item.step1 {
+			position: absolute;
+			left: 10%;
+			top: 130px;
+		}
+		li.nav-item.step2 {
+			position: absolute;
+			left: 500px;
+			top: 200px;
+		}
+		li.nav-item.step3 {
+			position: absolute;
+			left: 70%;
+			top: 65px;
+		}
+	}
+	.steps-content{
+		margin-bottom: 20px;
+	}
+	.range-wrapper{
+		margin-top: 20px;
+	}
+	
+}

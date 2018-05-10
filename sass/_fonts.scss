@@ -1,0 +1,35 @@
+/******************************************************************************************
+ Class: 		$Fonts
+ Description:	CSS definition for Fonts
+******************************************************************************************/
+
+
+@font-face {
+	font-family: 'Open-sans-regular';
+	src: url('../wpStart/fonts/OpenSans.eot');
+	src: local('OpenSans'), local('OpenSans'),
+		url('../wpStart/fonts/OpenSans.eot?#iefix') format('embedded-opentype'),
+		url('../wpStart/fonts/OpenSans.woff') format('woff'),
+		url('../wpStart/fonts/OpenSans.woff') format('woff2'),
+		url('../wpStart/fonts/OpenSans.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Open-sans-semibold';
+	src: url('../wpStart/fonts/OpenSans-Semibold.eot');
+	src: local('OpenSans-Semibold'), local('OpenSans-Semibold'),
+		url('../wpStart/fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
+		url('../wpStart/fonts/OpenSans-Semibold.woff') format('woff'),
+		url('../wpStart/fonts/OpenSans-Semibold.woff') format('woff2'),
+		url('../wpStart/fonts/OpenSans-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Open-sans-bold';
+	src: url('../wpStart/fonts/OpenSans-Bold.eot');
+	src: local('OpenSans-Bold'), local('OpenSans-Bold'),
+		url('../wpStart/fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../wpStart/fonts/OpenSans-Bold.woff') format('woff'),
+		url('../wpStart/fonts/OpenSans-Bold.woff') format('woff2'),
+		url('../wpStart/fonts/OpenSans-Bold.ttf') format('truetype');
+}

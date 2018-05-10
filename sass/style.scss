@@ -1,0 +1,12 @@
+/***************** Basic SASS FILES **********************/
+@import "_fonts.scss";
+@import "_variables";
+@import "_base.scss";
+@import "_master.scss";
+/************** Components SASS FILES *******************/
+@import "_components/carrousel.scss";
+/***************** Pages SASS FILES *********************/
+@import "_views/_home.scss";
+@import "_views/_about-us.scss";
+@import "_views/_sampler.scss";
+

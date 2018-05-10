@@ -1,0 +1,183 @@
+/**********************************************************************************
+	File name:      base.scss
+	Author:			Definity First
+	Description:    CSS overrides for WordPress base styles, new base 
+					definitionst and styles for layout components.
+**********************************************************************************/
+
+/******************************************************************************************
+ Mixins
+ Description:	Here goes every mixin you may need to avoid replicate code
+******************************************************************************************/
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	   -moz-border-radius: $radius;
+		-ms-border-radius: $radius;
+			border-radius: $radius;
+}
+@mixin box-shadow($shadow) {
+	-webkit-box-shadow: $shadow;
+	   -moz-box-shadow: $shadow;
+		-ms-box-shadow: $shadow;
+			box-shadow: $shadow;
+}
+
+@import '_variables';
+/******************************************************************************************
+ Class: 		$h1-h6
+ Description:	CSS definition for HTML headings: h1,h2,h3,h4,h5,h6
+******************************************************************************************/
+h1{
+	font-family: 'Open-sans-regular';	
+	font-size: 60px;
+	color: $clr-primary;
+}
+h2{
+	font-family: 'Open-sans-regular';	
+	font-size: 40px;
+	color: $clr-primary;
+}
+h3{
+	font-family: 'Open-sans-regular';	
+	font-size: 32px;
+	color: $clr-primary;
+}
+h4{
+	font-family: 'Open-sans-regular';	
+	font-size: 28px;
+	color: $clr-primary;
+}
+
+/******************************************************************************************
+ Class: 		$p
+ Description:	CSS definition for HTML paragraphs
+******************************************************************************************/
+p,label{
+	font-family: 'Open-sans-regular';	
+}
+.text-bold{
+	font-family: 'Open-sans-bold';
+	font-size: 16px;
+	line-height: 30px;
+	color:$clr-black;
+}
+.text-semibold{
+	font-family: 'Open-sans-semibold';
+	font-size: 16px;
+	line-height: 24px;
+	color:$clr-black;
+}
+.text-regular{
+	font-family: 'Open-sans-semibold';
+	font-size: 16px;
+	line-height: 36px;
+	color:$clr-black;
+}
+/******************************************************************************************
+ Class: 		$general wrap
+ Description:	CSS definition for general wrapper
+*****************************************************************************************/
+.general-wrap{
+	margin-top: 90px;
+}
+/******************************************************************************************
+ Class: 		$icons
+ Description:	CSS definition for icons
+*****************************************************************************************/
+i{
+	font-size: 16px;
+	font-weight: bold;
+}
+/******************************************************************************************
+ Class: 		$buttons
+ Description:	CSS definition for buttons
+******************************************************************************************/
+.button-general{
+	width: 160px;
+	height: 50px;	
+	font-family: 'Open-sans-bold';
+	font-size: 13px;
+	background: none;
+	cursor: pointer;
+	border:none;
+	color: $clr-white;
+}
+.button-primary{
+	background: $clr-primary;
+}
+.button-error{
+	background: $clr-error;
+}
+.button-success{
+	background: $clr-success;
+}
+/******************************************************************************************
+ Class: 		$custom-input-text
+ Description:	CSS definition for custom-input-text
+******************************************************************************************/
+.custom-input-text{
+	border: none;    
+    color: $clr-primary;
+    font-size: 20px;
+	font-family: 'Open-sans-regular';
+	border-bottom: 1px solid $clr-black;
+	width: 100%;
+	&:focus{
+		outline: none;		
+	}
+}
+.input-text-error{	
+	border-bottom: 1px solid $clr-error;
+	&:focus{
+		border-bottom: 1px solid $clr-error;
+	}
+	color: $clr-error;	
+}
+
+/******************************************************************************************
+ Class: 		$custom-select-form
+ Description:	CSS definition for custom-select-form
+******************************************************************************************/
+.custom-select-form {
+    padding: 0;
+    margin: 0;
+  	border:none;
+    border-bottom: 1px solid $clr-gray;
+    width: 100%;
+    border-radius: 3px;
+	overflow: hidden;
+	position: relative;
+	top: 30px;	
+	select {
+		padding: 5px 8px;
+		width: 100%;
+		font-size: 20px;
+		color: $clr-primary;
+		border: none;
+		&:focus {
+			outline: none;
+		}		
+	}	
+}
+
+/******************************************************************************************
+ Class: 		$custom-textarea
+ Description:	CSS definition for custom-textarea
+******************************************************************************************/
+.custom-textarea{
+	resize:none;
+	width: 100%;
+    border: 1px solid $clr-black;
+}
+@media (max-width: 767px) {
+	
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+@media (min-width: 1200px) {
+	
+}

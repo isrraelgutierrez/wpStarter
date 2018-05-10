@@ -1,0 +1,22 @@
+/**********************************************************************************
+	File name:      home.scss
+	Author:			Definity First
+	Description:    CSS overrides for WordPress home styles.
+**********************************************************************************/
+.homepage{
+	.short-desc{
+		margin: 50px 0 50px 0;
+	}
+	.form-sample{
+		border: 1px solid $clr-error;
+		padding: 20px;
+		h4{
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		.button-general{
+			margin: 10px auto;			
+			display: block;
+		}
+	}
+}
