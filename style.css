@@ -57,25 +57,25 @@ Theme Description: Start BoilerPlate
 h1 {
   font-family: 'Open-sans-regular';
   font-size: 60px;
-  color: #003973;
+  color: #5F3D0C;
 }
 
 h2 {
   font-family: 'Open-sans-regular';
   font-size: 40px;
-  color: #003973;
+  color: #5F3D0C;
 }
 
 h3 {
   font-family: 'Open-sans-regular';
   font-size: 32px;
-  color: #003973;
+  color: #5F3D0C;
 }
 
 h4 {
   font-family: 'Open-sans-regular';
   font-size: 28px;
-  color: #003973;
+  color: #5F3D0C;
 }
 
 /******************************************************************************************
@@ -140,7 +140,7 @@ i {
 }
 
 .button-primary {
-  background: #003973;
+  background: #5F3D0C;
 }
 
 .button-error {
@@ -157,7 +157,7 @@ i {
 ******************************************************************************************/
 .custom-input-text {
   border: none;
-  color: #003973;
+  color: #5F3D0C;
   font-size: 20px;
   font-family: 'Open-sans-regular';
   border-bottom: 1px solid #10202F;
@@ -197,7 +197,7 @@ i {
   padding: 5px 8px;
   width: 100%;
   font-size: 20px;
-  color: #003973;
+  color: #5F3D0C;
   border: none;
 }
 
@@ -221,7 +221,7 @@ i {
 	Description:    CSS overrides for WordPress layout.
 **********************************************************************************/
 .navbar.nav {
-  background: #003973;
+  background: #5F3D0C;
   border-bottom: 1px solid #ffffff;
 }
 
@@ -241,7 +241,7 @@ i {
 }
 
 .footer {
-  background: #003973;
+  background: #5F3D0C;
   text-align: center;
   margin-top: 20px;
   padding: 20px;
@@ -341,7 +341,7 @@ i {
 }
 
 .sampler .color-pallete .rec-primary {
-  background: #003973;
+  background: #5F3D0C;
 }
 
 .sampler .color-pallete .rec-gray {
@@ -382,7 +382,7 @@ i {
 
 .sampler .html-collapse {
   width: 100%;
-  background: #003973;
+  background: #5F3D0C;
   border-radius: 0;
   color: #ffffff;
 }
@@ -434,7 +434,7 @@ i {
 
 .sampler .nav-sampler .navbar .nav-item a {
   font-family: 'Open-sans-semibold';
-  color: #003973;
+  color: #5F3D0C;
 }
 
 .sampler .nav-sampler .navbar .sub-menu a {
